@@ -6,7 +6,7 @@ const openai = new OpenAI({
 });
 
 // Simple conversation history storage
-let conversationHistory: { role: "system" | "user" | "assistant"; content: string }[] = [
+const conversationHistory: { role: "system" | "user" | "assistant"; content: string }[] = [
   {
     role: "system",
     content:
